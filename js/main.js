@@ -3,14 +3,14 @@ const saida = document.querySelector(".resultado");
 const seletor = document.querySelector(".seletor");
 
 
+
+// Funções para a Cryptografia
+
 function btnCryptografar(){
     const inputCryptografado = cryptografar(inputTexto.value);
     saida.value = inputCryptografado;
     inputTexto.value = "";
 }
-
-
-
 
 
 function cryptografar (textoCryptografado){
@@ -57,7 +57,7 @@ function cryptografar (textoCryptografado){
 
 
 
-
+// Funções para a descryptografia
 
 function btnDescryptografar(){
     const inputCryptografado = descryptografar(inputTexto.value);
@@ -105,3 +105,13 @@ function descryptografar (textoDescryptografado){
 
         }
     }
+
+// Função para copiar o resultado da criptografia
+
+var btnCopiar = document.querySelector(".btn-copiar");
+
+btnCopiar.onclick = function() {
+    saida.select();
+    document.execCommand("copy");
+    saida.value = "";
+}
