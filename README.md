@@ -1,8 +1,8 @@
 # Challenge Alura - Codificador de Texto
 
 
-<a href="https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?type=design&node-id=0-1&t=AvJrscFV9dlLILUc-0">Figma</a><br>
-<a href="https://mikedsousa.github.io/codificador-alura/">Deploy</a>
+<a href="https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?type=design&node-id=0-1&t=AvJrscFV9dlLILUc-0" target="_blank" rel="external">Figma</a><br>
+<a href="https://mikedsousa.github.io/codificador-alura/" target="_blank" rel="external">Deploy</a>
 
 <h2><strong>Requisitos:</strong></h2>
 
