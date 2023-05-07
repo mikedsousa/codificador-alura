@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    width: 80vw;
+}
+
+header h1 {
+    padding-left: 40px;
+}
+
+main {
+    display: inline;
+    width: 768px;
+}
+
+.input {
+    width: 80vw;
+    padding-left: 80px;
+}
+
+.entrada {
+    align-items: flex-start;
+}
+
+section p {
+    padding: 10px 0;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button {
+    margin: 0 10px 30px 10px;
+}
+
+.resultado {
+    width: 80vw;
+}
+
+.resultado::placeholder {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    
+}
+
+footer {
+    width: 80vw;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador - Challenge Alura</title>
+    <link rel="shortcut icon" href="img/icone-a.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/reset.css" media="all">
+    <link rel="stylesheet" href="styles/style.css" media="all">
+    <link rel="stylesheet" href="styles/style-tablet.css" media="screen and (min-width: 768px) and (max-width: 1023px)">
+    <link rel="stylesheet" href="styles/style-desktop.css" media="screen and (min-width: 1024px)">
+   
+</head>
+<body>
+    <header>
+        <h1><img src="img/icone-a.png" alt="Icone da Alura"></h1>
+    </header>
+
+    <main>
+
+        <section class="entrada">
+            <textarea class="input" name="input-texto"  cols="30" rows="10" placeholder="Digite seu texto..."></textarea>
+
+            <select name="cryptografia" class="seletor">
+                <option value="1">Cryptografia Alura</option>
+                <option value="2">Cryptografia Musical</option>
+            </select>
+            
+
+            <p> Apenas letras minúsculas e sem acento.</p>
+            <div class="botoes" >
+                <button class="btn-codificar" type="button" onclick="btnCryptografar()">Cryptografar</button>
+                <button class="btn-descodificar" type="button" onclick="btnDescryptografar()">Descryptografar</button>
+            </div>
+        </section>
+
+        <section class="saida">
+            <textarea class="resultado" name="resultado" cols="30" rows="10" readonly placeholder=" "></textarea>
+            <button class="btn-copiar" type="button" onclick="copiar()">Copiar</button>
+        </section>
+
+    </main>
+
+    
+    <section class="redes">
+        <p>Minhas redes:</p>
+        <div class="icones">
+            <a href="https://www.linkedin.com/in/mike-de-sousa/" target="_blank" rel="external"><img class="linkedin" src="img/linkedin.png" alt="Icone circular do linkedin"></a>
+            <a href="https://github.com/mikedsousa" target="_blank" rel="external"><img class="github" src="img/github.png" alt="Icone circular do linkedin"></a>
+            <a href="https://www.instagram.com/mike.dsousa/" target="_blank" rel="external"><img class="instagram" src="img/instagram.png" alt="Icone circular do linkedin"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Mike de Sousa | 2023</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

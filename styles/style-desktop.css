@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header h1 {
+    padding-bottom: 50px;
+}
+
+
+.entrada {
+    align-items: flex-start;
+}
+
+.input {
+    width: 50vw;
+    height: 50vh;
+}
+
+.entrada p {
+    padding-top: 20px;
+    align-self: flex-start;
+}
+
+.botoes {
+    flex-direction: row;
+}
+
+.botoes button {
+    margin: 20px;
+}
+
+.resultado {
+    height: 55vh;
+}
+
+.resultado::placeholder {
+    content: url(../img/nenhuma-mensagem.png);
+}
+
+
+

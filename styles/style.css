@@ -1,0 +1,209 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --fonte-padrao: 'Inter', sans-serif;
+
+    --cor1: #0A3871;
+    --cor2: #D8DFE8;
+    --cor3: #E9ECF8;
+    --cor4: #868E96;
+
+}
+
+body {
+    background-color: var(--cor2);
+    font-family: var(--fonte-padrao);
+    width: 80vw;
+    margin: 0 auto;
+
+}
+
+header h1{
+    padding: 24px 0 80px 16px;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    background-color: transparent;
+  
+}
+
+textarea {
+    border: 0;
+    outline: none;
+    resize: none;
+    line-height: 150%;
+    color: var(--cor1);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    width: 300px;
+    font-size: 1.2em;
+    font-family: var(--fonte-padrao);
+    background-color: transparent;
+}
+
+.input::placeholder {
+    font-family: var(--fonte-padrao);
+    color: var(--cor1);
+    font-size: 1.2em;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.entrada p {
+    padding-left: 20px;
+    padding-top: 10px;
+    color: var(--cor1);
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.entrada p::before {
+    content: url(../img/exclamation.png);
+    vertical-align: middle;
+}
+
+select {
+    margin-left: 20px;
+    border: none;
+    background-color: var(--cor3);
+    color: var(--cor1);
+    font: var(--fonte-padrao);
+}
+
+button {
+    width: 300px;
+    height: 67px;
+    border-radius: 24px;
+    margin-bottom: 20px;
+    transition: 300ms;
+    
+}
+
+button:hover {
+    transform: scale(1.1);
+    
+}
+
+.btn-codificar {
+    background-color: var(--cor1);
+    color: white;
+    font-size: 1em;
+    border: none;
+
+}
+
+.btn-codificar:active {
+    color: var(--cor1);
+    background-color: var(--cor2);
+    border: 1px solid var(--cor1) ;
+}
+
+.btn-descodificar {
+    font-size: 1em;
+    color: var(--cor1);
+    background-color: var(--cor2);
+    border: 1px solid var(--cor1) ;
+
+}
+
+.btn-descodificar:active{
+    background-color: var(--cor1);
+    color: white;
+    border: none;
+}
+
+.btn-copiar {
+    background-color: var(--cor1);
+    color: white;
+    font-size: 1em;
+    border: none;
+}
+
+.btn-copiar:active {
+    color: var(--cor1);
+    background-color: var(--cor2);
+    border: 1px solid var(--cor1) ;
+}
+
+.resultado {
+    width: 350px;
+    margin-bottom: 20px;
+    padding: 10px 0 0 20px;
+    background-color: rgba(255, 255, 255, 0.411);
+    border-radius: 20px;
+    font: var(--fonte-padrao);
+    font-size: 1.4em;
+}
+
+.resultado::placeholder {
+    content: url(../img/nenhuma-mensagem-pqn.png);
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+ 
+}
+
+.redes p {
+    color: var(--cor1);
+    font-weight: bold;
+    padding-bottom: 20px;
+    align-self: center;
+}
+
+.icones a {
+    padding: 0px 10px 0px 10px;
+}
+
+.icones img {
+    transition: 300ms;
+}
+
+.icones .linkedin:hover {
+    transform: scale(1.15);
+    content: url(../img/linkedin-cor.png);
+}
+
+.icones .github:hover {
+    transform: scale(1.15);
+    content: url(../img/github.png);
+}
+
+.icones .instagram:hover {
+    transform: scale(1.15);
+    content: url(../img/instagram-cor.png);
+}
+
+footer {
+    width: 80vw;
+    height: 30px;
+    padding-top: 5px;
+}
+
+footer p {
+    text-align: center;
+    color: var(--cor1);
+    margin: 0 auto;
+    font-size: .8em;
+
+}
+
