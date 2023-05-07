@@ -39,6 +39,7 @@ textarea {
     resize: none;
     line-height: 150%;
     color: var(--cor1);
+    text-transform: lowercase;
 }
 
 section {
