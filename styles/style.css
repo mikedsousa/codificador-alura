@@ -30,6 +30,7 @@ main {
     flex-direction: column;
     width: 80vw;
     background-color: transparent;
+    margin: 0 auto;
   
 }
 
@@ -156,48 +157,14 @@ button:hover {
     content: url(../img/nenhuma-mensagem-pqn.png);
 }
 
-.redes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 20px;
- 
-}
-
-.redes p {
-    color: var(--cor1);
-    font-weight: bold;
-    padding-bottom: 20px;
-    align-self: center;
-}
-
-.icones a {
-    padding: 0px 10px 0px 10px;
-}
-
-.icones img {
-    transition: 300ms;
-}
-
-.icones .linkedin:hover {
-    transform: scale(1.15);
-    content: url(../img/linkedin-cor.png);
-}
-
-.icones .github:hover {
-    transform: scale(1.15);
-    content: url(../img/github.png);
-}
-
-.icones .instagram:hover {
-    transform: scale(1.15);
-    content: url(../img/instagram-cor.png);
-}
-
 footer {
     width: 80vw;
     height: 30px;
     padding-top: 5px;
+}
+
+.redes {
+    display: none;
 }
 
 footer p {
@@ -206,5 +173,14 @@ footer p {
     margin: 0 auto;
     font-size: .8em;
 
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:visited {
+    color: currentColor;
 }
 

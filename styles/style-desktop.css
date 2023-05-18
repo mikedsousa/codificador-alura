@@ -42,5 +42,41 @@ header h1 {
     content: url(../img/nenhuma-mensagem.png);
 }
 
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+ 
+}
 
+.redes p {
+    color: var(--cor1);
+    font-weight: bold;
+    padding-bottom: 20px;
+    align-self: center;
+}
+
+.icones a {
+    padding: 0px 10px 0px 10px;
+}
+
+.icones img {
+    transition: 300ms;
+}
+
+.icones .linkedin:hover {
+    transform: scale(1.15);
+    content: url(../img/linkedin-cor.png);
+}
+
+.icones .github:hover {
+    transform: scale(1.15);
+    content: url(../img/github.png);
+}
+
+.icones .instagram:hover {
+    transform: scale(1.15);
+    content: url(../img/instagram-cor.png);
+}
 
